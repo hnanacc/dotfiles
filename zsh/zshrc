@@ -1,0 +1,23 @@
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Custom environment variables.
+export DOTFILES="$HOME/repos/dotfiles"
+export VIM="$DOTFILES/vim"
+export EDITOR='vim'
+
+# Custom aliases
+alias cls=clear
+
+# Additions
+
+# oh-my-zsh
+# Path to your oh-my-zsh installation.
+export ZSH="$DOTFILES/oh-my-zsh"
+
+ZSH_THEME="robbyrussell"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
